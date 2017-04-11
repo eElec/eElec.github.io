@@ -1,1 +1,1 @@
-<?php echo date('l, F jS, Y'); ?>
+<?php echo "Haha"; ?>
