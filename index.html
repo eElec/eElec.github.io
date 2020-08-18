@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html>
-<head>	
-	<title>PaPa! TuTu! WaWa!</title>
-	<style>
-	.vidCont
-	{
-		position: fixed;
-		top: -99px;
-		left:0;
-		width: 100%;		
-		overflow-y: hidden;
-	}
-	.vidCont video
-	{	
-		background-size: cover; 
-		min-width: 100%;	
-		min-height: 100%;
-	}
-</style>
+<html lang="en">
+<head>
+    <title>PaPa! TuTu! WaWa!</title>
+    <style>
+        body {
+            background: #000;
+        }
+        .vidCont {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .vidCont video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
-
-<body bgcolor="BLACK">
-	<div class="vidCont">
-		<video autoplay loop>
-  		  <source src="PaPa.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-		</video>
-	</div>
+<body>
+<div class="vidCont">
+    <video playsinline controls loop>
+        <source src="PaPa.mp4" type="video/mp4">
+    </video>
+</div>
 </body>
 
 </html>
